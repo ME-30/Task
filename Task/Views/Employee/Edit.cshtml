@@ -1,0 +1,70 @@
+﻿@model EmployeeVM
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@section BootstrapSelect{
+    <link href="~/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+}
+
+<h1>@ViewData["Title"]</h1>
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="body">
+        <div class="row clearfix">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label asp-for="JobRole" class="control-label"></label>
+                    <select asp-for="JobRole" class="form-control show-tick">
+                        <option value="">-- Please select --</option>
+                        <option value="Manager">Manager</option>
+                        <option value="Developer">Developer</option>
+                        <option value="Designer">Designer</option>
+                    </select>
+                    <span asp-validation-for="JobRole" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+        <h2 class="card-inside-title">Gender</h2>
+        <div class="demo-radio-button">
+            <input asp-for="Gender" type="radio" value="Male" id="genderMale" />
+            <label asp-for="Gender" for="genderMale">Male</label>
+            <input asp-for="Gender" type="radio" value="Female" id="genderFemale" />
+            <label asp-for="Gender" for="genderFemale">Female</label>
+        </div>
+    </div>
+
+    <div class="body">
+        <h2 class="card-inside-title"> First Appointment</h2>
+        <div class="demo-checkbox">
+            <input asp-for="FirstAppointment" type="checkbox" id="basic_checkbox_1" />
+            <label for="basic_checkbox_1"> First Appointment</label>
+            <span asp-validation-for="FirstAppointment" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate" class="control-label"></label>
+        <input asp-for="StartDate" class="form-control" type="date" />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Notes" class="control-label"></label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Update" class="btn btn-primary" />
+    </div>
+</form>
+

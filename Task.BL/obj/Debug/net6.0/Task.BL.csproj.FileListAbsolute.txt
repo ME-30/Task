@@ -1,0 +1,15 @@
+C:\Users\mostafa\source\Project\Task.BL\bin\Debug\net6.0\Task.BL.deps.json
+C:\Users\mostafa\source\Project\Task.BL\bin\Debug\net6.0\Task.BL.dll
+C:\Users\mostafa\source\Project\Task.BL\bin\Debug\net6.0\Task.BL.pdb
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.csproj.AssemblyReference.cache
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.AssemblyInfoInputs.cache
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.AssemblyInfo.cs
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.csproj.CoreCompileInputs.cache
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.dll
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\refint\Task.BL.dll
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.pdb
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\ref\Task.BL.dll
+C:\Users\mostafa\source\Project\Task.BL\bin\Debug\net6.0\Task.DAL.dll
+C:\Users\mostafa\source\Project\Task.BL\bin\Debug\net6.0\Task.DAL.pdb
+C:\Users\mostafa\source\Project\Task.BL\obj\Debug\net6.0\Task.BL.csproj.CopyComplete

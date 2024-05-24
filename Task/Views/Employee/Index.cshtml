@@ -1,0 +1,43 @@
+﻿@model IEnumerable<EmployeeVM>
+
+@{
+    ViewData["Title"] = "Employee List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Job Role</th>
+            <th>Gender</th>
+            <th>First Appointment</th>
+            <th>Start Date</th>
+            <th>Notes</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Name</td>
+                <td>@employee.JobRole</td>
+                <td>@employee.Gender</td>
+                <td>@employee.FirstAppointment</td>
+                <td>@employee.StartDate.ToShortDateString()</td>
+                <td>@employee.Notes</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.Id" class="btn btn-warning">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@employee.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

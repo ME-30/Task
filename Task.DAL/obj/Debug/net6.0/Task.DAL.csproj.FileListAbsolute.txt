@@ -1,0 +1,14 @@
+C:\Users\mostafa\source\Project\Task.DAL\bin\Debug\net6.0\Task.DAL.deps.json
+C:\Users\mostafa\source\Project\Task.DAL\bin\Debug\net6.0\Task.DAL.runtimeconfig.json
+C:\Users\mostafa\source\Project\Task.DAL\bin\Debug\net6.0\Task.DAL.dll
+C:\Users\mostafa\source\Project\Task.DAL\bin\Debug\net6.0\Task.DAL.pdb
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.csproj.AssemblyReference.cache
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.AssemblyInfoInputs.cache
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.AssemblyInfo.cs
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.csproj.CoreCompileInputs.cache
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.dll
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\refint\Task.DAL.dll
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.pdb
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\Task.DAL.genruntimeconfig.cache
+C:\Users\mostafa\source\Project\Task.DAL\obj\Debug\net6.0\ref\Task.DAL.dll
